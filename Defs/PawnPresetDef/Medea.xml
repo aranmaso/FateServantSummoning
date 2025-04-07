@@ -1,0 +1,62 @@
+<Defs>
+	
+	<ServantSummon.PawnPresetDef ParentName="PresetBase">
+		<defName>FS_Medea</defName>
+		<label>Caster</label>
+		<description>WIP</description>
+		
+		<firstName>Medea</firstName>
+		<nickname>Caster</nickname>
+		<lastname></lastname>
+		<title>Caster</title>
+		
+		<bodyTypeDef>Female</bodyTypeDef>
+		<headTypeDef>Female_AverageNormal</headTypeDef>
+		
+		<weaponDef>FS_RuleBreaker</weaponDef>
+		<forcedApparelDefs>
+			<li>FS_MedeaRobe</li>
+			<li>Apparel_Pants</li>
+		</forcedApparelDefs>
+		
+		<basePawnKindDef>Colonist</basePawnKindDef>
+		
+		<hairColor>(255,0,255)</hairColor>
+		<skinColor>(236,203,184)</skinColor>
+		<eyeColor>(0,0,255)</eyeColor>
+		
+		<forcedHairDef>BriefPonytail</forcedHairDef>
+		
+		<abilities>
+		</abilities>
+		
+		<fixedAge>18</fixedAge>
+		<gender>Female</gender>
+		
+		<childBackStories>
+			<li>FS_MedeaChild</li>
+		</childBackStories>
+		
+		<adultBackStories>
+			<li>FS_MedeaAdult</li>
+		</adultBackStories>
+		
+		<traits>
+			<li>FS_Servant</li>
+			<li>FS_ServantCaster</li>
+		</traits>
+		
+		<hediffSets>
+			<li>
+				<hediffDef>FS_HighSpeedDiviveWord</hediffDef>
+				<bodyPartDef />
+			</li>
+		</hediffSets>
+		
+		<servantHediffDef>FS_ServantTracker</servantHediffDef>
+		<masterHediffDef>FS_CommandSeal</masterHediffDef>
+		
+		<baseXenotype>Baseliner</baseXenotype>
+	</ServantSummon.PawnPresetDef>
+
+</Defs>

@@ -1,0 +1,66 @@
+<Defs>
+	
+	<ServantSummon.PawnPresetDef ParentName="PresetBase">
+		<defName>FS_Gilgamesh</defName>
+		<label>Archer Golden</label>
+		<description>WIP</description>
+		
+		<firstName>Gilgamesh</firstName>
+		<nickname>Gilgamesh</nickname>
+		<lastname></lastname>
+		<title>King of Hero</title>
+		
+		<bodyTypeDef>Male</bodyTypeDef>
+		<headTypeDef>Male_AverageNormal</headTypeDef>
+		
+		<!-- <weaponDef>FS_Bakuya</weaponDef> -->
+		<forcedApparelDefs>
+			<li>FS_GilgameshArmor</li>
+			<li>Apparel_Pants</li>
+		</forcedApparelDefs>
+		
+		<basePawnKindDef>Colonist</basePawnKindDef>
+		
+		<hairColor>(255,255,0)</hairColor>
+		<skinColor>(236,203,184)</skinColor>
+		<eyeColor>(0,0,0)</eyeColor>
+		
+		<forcedHairDef>BriefPonytail</forcedHairDef>
+		
+		<abilities>
+		</abilities>
+		
+		<fixedAge>20</fixedAge>
+		<gender>Male</gender>
+		
+		<childBackStories>
+			<li>FS_GilgameshChild</li>
+		</childBackStories>
+		
+		<adultBackStories>
+			<li>FS_ArtoriaAdult</li>
+		</adultBackStories>
+		
+		<traits>
+			<li>FS_Servant</li>
+			<li>FS_ServantArcher</li>
+			<li>FS_GilDemigod</li>
+			<li>FS_GilGoldenRule</li>
+			<li>FS_Charismatic</li>
+		</traits>
+		
+		<skillGains>
+			<Melee>5</Melee>
+			<Shooting>5</Shooting>
+		</skillGains>
+		
+		<hediffSets>
+		</hediffSets>
+		
+		<servantHediffDef>FS_ServantTrackerArcher</servantHediffDef>
+		<masterHediffDef>FS_CommandSeal</masterHediffDef>
+		
+		<baseXenotype>Baseliner</baseXenotype>
+	</ServantSummon.PawnPresetDef>
+
+</Defs>

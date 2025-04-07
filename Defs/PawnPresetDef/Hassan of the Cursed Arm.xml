@@ -1,0 +1,73 @@
+<Defs>
+	
+	<ServantSummon.PawnPresetDef ParentName="PresetBase">
+		<defName>FS_CursedArm</defName>
+		<label>Cursed-Arm Hassan</label>
+		<description>WIP</description>
+		
+		<firstName>Hassan</firstName>
+		<nickname>Cursed-Arm Hassan</nickname>
+		<lastname>.</lastname>
+		<title>Hassan of the Cursed Arm</title>
+		
+		<bodyTypeDef>Male</bodyTypeDef>
+		<headTypeDef>Male_AverageNormal</headTypeDef>
+		
+		<!-- <weaponDef>FS_GaeBolg</weaponDef> -->
+		<forcedApparelDefs>
+			<li>FS_HassanRobe</li>
+			<li>Apparel_Pants</li>
+		</forcedApparelDefs>
+		
+		<basePawnKindDef>Colonist</basePawnKindDef>
+		
+		<hairColor>(0,0,0)</hairColor>
+		<skinColor>(236,203,184)</skinColor>
+		<eyeColor>(0,0,0)</eyeColor>
+		
+		<forcedHairDef>BriefPonytail</forcedHairDef>
+		
+		<abilities>
+		</abilities>
+		
+		<fixedAge>20</fixedAge>
+		<gender>Male</gender>
+		
+		<childBackStories>
+		</childBackStories>
+		
+		<adultBackStories>
+			<li>FS_HassanAdult</li>
+		</adultBackStories>
+		
+		<traits>
+			<li>FS_Servant</li>
+			<li>FS_ServantAssassins</li>
+			<li>FS_DemonicRightArm</li>
+		</traits>
+		
+		<skillGains />
+		
+		<hediffSets>
+			<li>
+				<hediffDef>FS_PresenceConcealment</hediffDef>
+				<bodyPartDef />
+			</li>
+			<li>
+				<hediffDef>FS_CursedRightArm</hediffDef>
+				<bodyPartDef>Shoulder</bodyPartDef>
+				<woundAnchorTag>RightShoulder</woundAnchorTag>
+			</li>
+			<li>
+				<hediffDef>FS_SelfMod</hediffDef>
+				<bodyPartDef />
+			</li>
+		</hediffSets>
+		
+		<servantHediffDef>FS_ServantTracker</servantHediffDef>
+		<masterHediffDef>FS_CommandSeal</masterHediffDef>
+		
+		<baseXenotype>Baseliner</baseXenotype>
+	</ServantSummon.PawnPresetDef>
+
+</Defs>

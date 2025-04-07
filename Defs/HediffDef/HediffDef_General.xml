@@ -1,0 +1,231 @@
+<Defs>
+
+	<HediffDef Name="ServantInnateHediffBase" Abstract="True">
+		<label>innate hediff</label>
+		<description>WIP</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+	</HediffDef>
+	
+	<HediffDef ParentName="ServantInnateHediffBase">
+		<defName>FS_Corrupted</defName>
+		<label>Corrupted</label>
+		<description>corrupted by tainted holy grail</description>
+		<comps>
+		</comps>
+		<stages>
+			<li>
+				<naturalHealingFactor>1.2</naturalHealingFactor>
+				<statOffsets>
+					<IncomingDamageFactor>-0.2</IncomingDamageFactor>
+					<InjuryHealingFactor>0.2</InjuryHealingFactor>
+					<MoveSpeed>5</MoveSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="ServantInnateHediffBase">
+		<defName>FS_DeMaterialize</defName>
+		<label>De-materialized</label>
+		<description>currently in incorporeal form, does not use mana, healing is boosted</description>
+		<disablesNeeds>
+			<li>Rest</li>
+			<li>Food</li>
+		</disablesNeeds>
+		<comps>
+		</comps>
+		<stages>
+			<li>
+				<naturalHealingFactor>2.0</naturalHealingFactor>
+				<regeneration>25</regeneration>
+				<statOffsets>
+					<!-- <MoveSpeed>99</MoveSpeed> -->
+				</statOffsets>
+				<statFactors>
+					<FS_ManaPerDay>0</FS_ManaPerDay>
+					<IncomingDamageFactor>0</IncomingDamageFactor>
+				</statFactors>
+				<disabledWorkTags>AllWork</disabledWorkTags>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="ServantInnateHediffBase">
+		<defName>FS_DeMaterializeAssassins</defName>
+		<label>De-materialized</label>
+		<description>currently in incorporeal form, does not use mana, healing is boosted</description>
+		<disablesNeeds>
+			<li>Rest</li>
+			<li>Food</li>
+		</disablesNeeds>
+		<comps>
+		</comps>
+		<stages>
+			<li>
+				<naturalHealingFactor>2.0</naturalHealingFactor>
+				<regeneration>25</regeneration>
+				<statOffsets>
+					<MoveSpeed>60</MoveSpeed>					
+				</statOffsets>
+				<statFactors>
+					<FS_ManaPerDay>0</FS_ManaPerDay>
+					<IncomingDamageFactor>0</IncomingDamageFactor>
+				</statFactors>
+				<disabledWorkTags>AllWork</disabledWorkTags>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="ServantInnateHediffBase">
+		<defName>FS_HighSpeedDiviveWord</defName>
+		<label>High-Speed divive word</label>
+		<description>cast magic faster</description>
+		<comps>
+		</comps>
+		<stages>
+			<li>
+				<statFactors>
+					<FS_MagicDamageMultiplier>1.1</FS_MagicDamageMultiplier>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="ServantInnateHediffBase">
+		<defName>FS_GodHand</defName>
+		<label>God Hand</label>
+		<description>God Hand</description>
+		<comps>
+		</comps>
+		<stages>
+			<li>
+				<statFactors>
+					<IncomingDamageFactor>0.9</IncomingDamageFactor>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="ServantInnateHediffBase">
+		<defName>FS_MadnessEnhancement</defName>
+		<label>Madness Enhancement</label>
+		<description>mad</description>
+		<comps>
+		</comps>
+		<stages>
+			<li>
+				<disabledWorkTags>ManualSkilled</disabledWorkTags>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="ServantInnateHediffBase">
+		<defName>FS_GaeBolg</defName>
+		<label>GaeBolg</label>
+		<description>never gonna miss</description>
+		<comps>
+			<li Class="VFECore.HediffCompProperties_Targeting">
+				<neverMiss>true</neverMiss>
+			</li>
+		</comps>
+		<stages>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="ServantInnateHediffBase">
+		<defName>FS_ArrowProtection</defName>
+		<label>Protection From Arrow</label>
+		<description>arrow go miss</description>
+		<comps>
+			<li Class="VFECore.HediffCompProperties_Targeting">
+				<alwaysMiss>true</alwaysMiss>
+			</li>
+		</comps>
+		<stages>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="ServantInnateHediffBase">
+		<defName>FS_BattleContinuation</defName>
+		<label>Battle Continuation</label>
+		<description>won't go down, can still die</description>
+		<comps>
+		</comps>
+		<stages>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="ServantInnateHediffBase">
+		<defName>FS_MagicResistance</defName>
+		<label>Magic Resistance</label>
+		<description>won't go down, can still die</description>
+		<comps>
+		</comps>
+		<stages>
+			<li>
+				<statFactors>
+					<FS_MagicResistanceMultiplier>0.8</FS_MagicResistanceMultiplier>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="ServantInnateHediffBase">
+		<defName>FS_PresenceConcealment</defName>
+		<label>Presence Concealment</label>
+		<description>hiding</description>
+		<initialSeverity>0.01</initialSeverity>
+		<maxSeverity>1</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_Invisibility" MayRequire="ludeon.rimworld.royalty,ludeon.rimworld.anomaly">
+				<visibleToPlayer>true</visibleToPlayer>
+				<fadeDurationTicks>250</fadeDurationTicks>
+				<recoverFromDisruptedTicks>1000</recoverFromDisruptedTicks>
+				<affectedByDisruptor>false</affectedByDisruptor>
+			</li>
+			<li Class="ServantSummon.HediffCompProperties_ActiveOnCombat" />
+		</comps>
+		<stages>
+			<li>
+				<label>hidden</label>
+				<minSeverity>0.01</minSeverity>
+				<statOffsets>
+					<MeleeDodgeChance>999</MeleeDodgeChance>
+					<MeleeHitChance>999</MeleeHitChance>
+				</statOffsets>
+			</li>
+			<li>
+				<label>combat</label>
+				<minSeverity>1</minSeverity>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="ServantInnateHediffBase">
+		<defName>FS_CursedRightArm</defName>
+		<label>Demonic right arm</label>
+		<description>big right arm</description>
+		<comps>
+		</comps>
+		<stages>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="ServantInnateHediffBase">
+		<defName>FS_SelfMod</defName>
+		<label>Self-Modification</label>
+		<description>tend with mana</description>
+		<comps>
+			<li Class="ServantSummon.HediffCompProperties_SelfTendWithMana">
+				<trackerHediff>FS_ServantTrackerAssassins</trackerHediff>
+				<manaPerWound>10</manaPerWound>
+				<tendCount>-1</tendCount>
+				<uiIcon>UI/Icon/hea</uiIcon>
+			</li>
+		</comps>
+		<stages>
+		</stages>
+	</HediffDef>
+
+</Defs>

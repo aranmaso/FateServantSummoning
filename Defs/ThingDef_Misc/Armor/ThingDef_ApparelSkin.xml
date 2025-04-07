@@ -1,0 +1,246 @@
+<Defs>
+	
+	<ThingDef Name="FateServantClothesBase" ParentName="ApparelMakeableBase" Abstract="True">
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<costStuffCount>80</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<thingCategories>
+			<li>ApparelMisc</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<Mass>2</Mass>
+			<ArmorRating_Sharp>1.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.00</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.75</ArmorRating_Heat>
+			<StuffEffectMultiplierArmor>0.75</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>2.00</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>2.00</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>3</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</wornGraphicPath>
+			<anyTechLevelCanUseForWarmth>false</anyTechLevelCanUseForWarmth>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>IndustrialBasic</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,255,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+	
+	<ThingDef ParentName="FateServantClothesBase" Name="FateServantClothesHeadBase" Abstract="True">
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/WarMask/WarMask</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.80</drawSize>
+		</graphicData>
+		<uiIconScale>1.15</uiIconScale>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>25</costStuffCount>
+		<statBases>
+			<WorkToMake>3000</WorkToMake>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Mass>1.4</Mass>
+			<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.10</PainShockThreshold>
+		</equippedStatOffsets>
+		<apparel Inherit="False">
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/WarMask/WarMask</wornGraphicPath>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
+			<drawData>
+				<dataNorth>
+					<layer>-3</layer>
+				</dataNorth>
+			</drawData>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>		
+	
+	<ThingDef ParentName="FateServantClothesBase">
+		<defName>FS_ArtoriaDress</defName>
+		<label>saber's dress</label>
+		<description>WIP</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="FateServantClothesBase">
+		<defName>FS_ArtoriaAlterDress</defName>
+		<label>Salter's dress</label>
+		<description>WIP</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="FateServantClothesHeadBase">
+		<defName>FS_SalterMask</defName>
+		<label>Salter's mask</label>
+		<description>WIP</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/WarMask/WarMask</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.80</drawSize>
+		</graphicData>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.10</PainShockThreshold>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/WarMask/WarMask</wornGraphicPath>
+		</apparel>
+	</ThingDef>		
+	
+	<ThingDef ParentName="FateServantClothesBase">
+		<defName>FS_EmiyaAttire</defName>
+		<label>Emiya's Attire</label>
+		<description>WIP</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="FateServantClothesBase">
+		<defName>FS_GilgameshArmor</defName>
+		<label>Gilgamesh's Armor</label>
+		<description>WIP</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="FateServantClothesBase">
+		<defName>FS_MedeaRobe</defName>
+		<label>Medea's Robe</label>
+		<description>WIP</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="FateServantClothesBase">
+		<defName>FS_MedusaRobe</defName>
+		<label>Medusa's Robe</label>
+		<description>WIP</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="FateServantClothesBase">
+		<defName>FS_HeraclesRobe</defName>
+		<label>Heracles's Robe</label>
+		<description>WIP</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="FateServantClothesBase">
+		<defName>FS_CuChulainnRobe</defName>
+		<label>Cu Chulainn's Clothing</label>
+		<description>WIP</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="FateServantClothesBase">
+		<defName>FS_HassanRobe</defName>
+		<label>Hassan's Clothing</label>
+		<description>WIP</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+</Defs>

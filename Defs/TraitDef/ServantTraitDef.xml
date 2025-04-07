@@ -1,0 +1,297 @@
+<Defs>
+
+	<TraitDef>
+		<defName>FS_Servant</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>Servant</label>
+				<description>{PAWN_nameDef} was summoned as servant, {PAWN_pronoun} is bound to {PAWN_objective} master by magic</description>
+				<statOffsets>
+					<IncomingDamageFactor>-0.3</IncomingDamageFactor>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>FS_ServantSaber</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>Saber Class</label>
+				<description>{PAWN_nameDef} is a servant of Saber class</description>
+				<skillGains>
+					<Melee>6</Melee>
+				</skillGains>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>FS_ServantArcher</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>Archer Class</label>
+				<description>{PAWN_nameDef} is a servant of Archer class</description>
+				<skillGains>
+					<Shooting>8</Shooting>
+				</skillGains>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>FS_ServantCaster</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>Caster Class</label>
+				<description>{PAWN_nameDef} is a servant of Caster class</description>
+				<skillGains>
+					<Medicine>4</Medicine>
+					<Intellectual>6</Intellectual>
+				</skillGains>
+				<statFactors>
+					<GlobalLearningFactor>1.5</GlobalLearningFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>FS_ServantRider</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>Rider Class</label>
+				<description>{PAWN_nameDef} is a servant of Rider class</description>
+				<skillGains>
+					<Animals>6</Animals>
+				</skillGains>
+				<statFactors>
+					<TameAnimalChance>1.5</TameAnimalChance>
+					<TrainAnimalChance>1.5</TrainAnimalChance>
+					<BondAnimalChanceFactor>1.5</BondAnimalChanceFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>FS_ServantBerserker</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>Berserker Class</label>
+				<description>{PAWN_nameDef} is a servant of Berserker class</description>
+				<skillGains>
+					<Melee>10</Melee>
+				</skillGains>
+				<statOffsets>
+					<FS_HealthFactor>0.2</FS_HealthFactor>
+				</statOffsets>
+				<statFactors>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>FS_ServantLancer</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>Lancer Class</label>
+				<description>{PAWN_nameDef} is a servant of Lancer class</description>
+				<skillGains>
+					<Melee>5</Melee>
+				</skillGains>
+				<statOffsets>
+					<MeleeDodgeChance>20</MeleeDodgeChance>
+				</statOffsets>
+				<statFactors>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>FS_ServantAssassins</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>Assassins Class</label>
+				<description>{PAWN_nameDef} is a servant of Assassins class</description>
+				<skillGains>
+					<Melee>5</Melee>
+				</skillGains>
+				<statOffsets>
+					<MeleeDodgeChance>20</MeleeDodgeChance>
+				</statOffsets>
+				<statFactors>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>FS_ServantCorrupted</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>Corrupted</label>
+				<description>{PAWN_nameDef} is a servant tainted by corrupted grail</description>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>FS_ServantHeightenedSense</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>Hightened Sense</label>
+				<description>{PAWN_nameDef} has hightened sense</description>
+				<skillGains>
+					<Social>-8</Social>
+				</skillGains>
+				<statFactors>
+					<MeleeHitChance>1.5</MeleeHitChance>
+					<MeleeDodgeChance>1.5</MeleeDodgeChance>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>FS_GilDemigod</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>Demi-God</label>
+				<description>{PAWN_nameDef} is a demi-god</description>
+				<skillGains>
+				</skillGains>
+				<statOffsets>
+					<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+					<ToxicResistance>1</ToxicResistance>
+					<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+					<FS_HealthFactor>0.1</FS_HealthFactor>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>FS_HeraclesDemigod</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>Half Demi-God</label>
+				<description>{PAWN_nameDef} is a half demi-god</description>
+				<skillGains>
+				</skillGains>
+				<statOffsets>
+					<FS_HealthFactor>0.1</FS_HealthFactor>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>FS_GilGoldenRule</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>Golden Rule</label>
+				<description>{PAWN_nameDef} is wealthy</description>
+				<skillGains>
+				</skillGains>
+				<statOffsets>
+				</statOffsets>
+				<statFactors>
+					<TradePriceImprovement>1.5</TradePriceImprovement>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>FS_Charismatic</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>Charismatic</label>
+				<description>{PAWN_nameDef} is very charismatic</description>
+				<skillGains>
+				</skillGains>
+				<statOffsets>
+					<Beauty>4</Beauty>					
+				</statOffsets>
+				<statFactors>
+					<NegotiationAbility>1.5</NegotiationAbility>
+					<PawnBeauty>1.5</PawnBeauty>
+					<SocialImpact>1.5</SocialImpact>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>FS_ChildOfLight</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>Child of Light</label>
+				<description>{PAWN_nameDef} is a Child of Light</description>
+				<skillGains>
+				</skillGains>
+				<statOffsets>				
+				</statOffsets>
+				<statFactors>
+					<MeleeCooldownFactor>0.5</MeleeCooldownFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>FS_DemonicRightArm</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>Demonic Right Arm</label>
+				<description>{PAWN_nameDef} has giant right arm</description>
+				<skillGains>
+					<Social>-4</Social>
+				</skillGains>
+				<statOffsets>				
+				</statOffsets>
+				<statFactors>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>FS_WeakConstitution</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>Weak Constitution</label>
+				<description>{PAWN_nameDef} has a weak constitution</description>
+				<skillGains>
+					<Social>-4</Social>
+				</skillGains>
+				<statOffsets>				
+				</statOffsets>
+				<statFactors>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+</Defs>

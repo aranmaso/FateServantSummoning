@@ -1,0 +1,51 @@
+<Defs>
+	
+	<HediffDef Name="CommandSealBase" Abstract="True">
+		<label>standard command seal</label>
+		<description>WIP</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+	</HediffDef>
+	
+	<HediffDef ParentName="CommandSealBase">
+		<defName>FS_CommandSeal</defName>
+		<label>standard command seal</label>
+		<description>WIP</description>
+		<comps>
+			<li Class="ServantSummon.HediffCompProperties_CommandSeal">
+				<count>3</count>
+			</li>
+			<li Class="ServantSummon.HediffCompProperties_MagicalEnergy">
+				<MaxMana>250</MaxMana>
+				<regenPerDay>20</regenPerDay>
+				<labelOverride>Mana</labelOverride>
+				<tooltipOverride>Mana needed to maintain servant</tooltipOverride>
+				<BarColor>(0,0,100)</BarColor>
+			</li>
+		</comps>
+	</HediffDef>
+	
+	<HediffDef ParentName="CommandSealBase">
+		<defName>FS_CommandSealCorrupted</defName>
+		<label>command seal(corrupted)</label>
+		<description>WIP</description>
+		<comps>
+			<li Class="ServantSummon.HediffCompProperties_CommandSeal">
+				<count>3</count>
+			</li>
+			<li Class="ServantSummon.HediffCompProperties_MagicalEnergy">
+				<MaxMana>250</MaxMana>
+				<regenPerDay>10</regenPerDay>
+				<labelOverride>Mana</labelOverride>
+				<tooltipOverride>Mana needed to maintain servant</tooltipOverride>
+				<BarColor>(0,0,100)</BarColor>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<restFallFactor>1.5</restFallFactor>
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>

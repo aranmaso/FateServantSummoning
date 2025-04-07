@@ -1,0 +1,84 @@
+<Defs>
+
+	<ServantSummon.PawnPresetDef Abstract="True">
+		<defName>FSS_TestServant</defName>
+		<label>Test Servant</label>
+		<description>WIP</description>
+		
+		<firstName>John</firstName>
+		<nickname>John</nickname>
+		<lastname>Fate</lastname>
+		<title>John Fate</title>
+		
+		<bodyTypeDef>Male</bodyTypeDef>
+		<headTypeDef>Male_AverageNormal</headTypeDef>
+		
+		<weaponDef>MeleeWeapon_Mace</weaponDef>
+		<forcedApparelDefs>
+			<li>Apparel_TribalA</li>
+			<li>Apparel_Parka</li>
+			<li>Apparel_Pants</li>
+		</forcedApparelDefs>
+		
+		<basePawnKindDef>Colonist</basePawnKindDef>
+		
+		<hairColor>(255,0,0)</hairColor>
+		<skinColor>(255,255,255)</skinColor>
+		<eyeColor>(0,0,0)</eyeColor>
+		
+		<forcedHairDef>BriefPonytail</forcedHairDef>
+		
+		<abilities>
+			<li>Bloodfeed</li>
+			<li>Coagulate</li>
+			<li>ReimplantXenogerm</li>
+			<li>PiercingSpine</li>
+			<li>Resurrect</li>
+			<li>AcidSpray</li>
+		</abilities>
+		
+		<fixedAge>25</fixedAge>
+		<gender>Male</gender>
+		
+		<childBackStories>
+			<li>FallenProdigy40</li>
+			<li>FarmKid60</li>
+			<li>FarmerBoy88</li>
+			<li>OptimisticChild30</li>
+		</childBackStories>
+		
+		<adultBackStories>
+			<li>MadScientist22</li>
+			<li>CivilEngineer2</li>
+			<li>ArmyCook0</li>
+		</adultBackStories>
+		
+		<traits>
+			<li>Kind</li>
+			<li>Psychopath</li>
+			<li>Abrasive</li>
+		</traits>
+		
+		<hediffSets>
+			<li>
+				<hediffDef>TraumaSavant</hediffDef>
+				<bodyPartDef>Torso</bodyPartDef>
+			</li>
+			<li>
+				<hediffDef>ChemicalDamageModerate</hediffDef>
+				<bodyPartDef>Toe</bodyPartDef>
+			</li>
+		</hediffSets>
+		
+		<servantHediffDef>FS_ServantTracker</servantHediffDef>
+		<masterHediffDef>FS_CommandSeal</masterHediffDef>
+		
+		<baseXenotype>Baseliner</baseXenotype>
+	</ServantSummon.PawnPresetDef>
+	
+	<ServantSummon.PawnPresetDef Name="PresetBase" Abstract="True">
+		<servantHediffDef>FS_ServantTracker</servantHediffDef>
+		<masterHediffDef>FS_CommandSeal</masterHediffDef>
+	</ServantSummon.PawnPresetDef>
+
+</Defs>

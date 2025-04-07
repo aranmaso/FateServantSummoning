@@ -1,0 +1,72 @@
+<Defs>
+	
+	<ServantSummon.PawnPresetDef ParentName="PresetBase">
+		<defName>FS_Hecules</defName>
+		<label>Berserker</label>
+		<description>WIP</description>
+		
+		<firstName>Hecules</firstName>
+		<nickname>Berserker</nickname>
+		<lastname></lastname>
+		<title>Berserker</title>
+		
+		<bodyTypeDef>Male</bodyTypeDef>
+		<headTypeDef>Male_AverageNormal</headTypeDef>
+		
+		<weaponDef>FS_HeraclesSword</weaponDef>
+		<forcedApparelDefs>
+			<li>FS_HeraclesRobe</li>
+			<li>Apparel_Pants</li>
+		</forcedApparelDefs>
+		
+		<basePawnKindDef>Colonist</basePawnKindDef>
+		
+		<hairColor>(255,255,255)</hairColor>
+		<skinColor>(236,203,184)</skinColor>
+		<eyeColor>(0,0,0)</eyeColor>
+		
+		<forcedHairDef>BriefPonytail</forcedHairDef>
+		
+		<abilities>
+		</abilities>
+		
+		<fixedAge>20</fixedAge>
+		<gender>Male</gender>
+		
+		<childBackStories>
+			<li>FS_BerserkerChild</li>
+		</childBackStories>
+		
+		<adultBackStories>
+			<li>FS_BerserkerAdult</li>
+		</adultBackStories>
+		
+		<traits>
+			<li>FS_Servant</li>
+			<li>FS_ServantBerserker</li>
+		</traits>
+		
+		<skillGains />
+		
+		<hediffSets>
+			<li>
+				<hediffDef>FS_MadnessEnhancement</hediffDef>
+				<bodyPartDef />
+			</li>
+			<li>
+				<hediffDef>FS_BattleContinuation</hediffDef>
+				<bodyPartDef />
+			</li>
+			<li>
+				<hediffDef>FS_GodHand</hediffDef>
+				<bodyPartDef />
+			</li>
+		</hediffSets>
+		
+		<servantHediffDef>FS_ServantTracker</servantHediffDef>
+		<masterHediffDef>FS_CommandSeal</masterHediffDef>
+		
+		<baseXenotype>Baseliner</baseXenotype>
+	</ServantSummon.PawnPresetDef>
+
+</Defs>

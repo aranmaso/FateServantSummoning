@@ -1,0 +1,60 @@
+<Defs>
+	
+	<ServantSummon.PawnPresetDef ParentName="PresetBase">
+		<defName>FS_Emiya</defName>
+		<label>Archer</label>
+		<description>WIP</description>
+		
+		<firstName>Shiro</firstName>
+		<nickname>Archer</nickname>
+		<lastname>Emiya</lastname>
+		<title>EMIYA</title>
+		
+		<bodyTypeDef>Male</bodyTypeDef>
+		<headTypeDef>Male_AverageNormal</headTypeDef>
+		
+		<weaponDef>FS_Bakuya</weaponDef>
+		<forcedApparelDefs>
+			<li>FS_EmiyaAttire</li>
+			<li>Apparel_Pants</li>
+		</forcedApparelDefs>
+		
+		<basePawnKindDef>Colonist</basePawnKindDef>
+		
+		<hairColor>(255,255,255)</hairColor>
+		<skinColor>(236,203,184)</skinColor>
+		<eyeColor>(0,0,0)</eyeColor>
+		
+		<forcedHairDef>BriefPonytail</forcedHairDef>
+		
+		<abilities>
+		</abilities>
+		
+		<fixedAge>20</fixedAge>
+		<gender>Male</gender>
+		
+		<childBackStories>
+			<li>FS_EmiyaChild</li>
+		</childBackStories>
+		
+		<adultBackStories>
+			<li>FS_EmiyaAdult</li>
+		</adultBackStories>
+		
+		<traits>
+			<li>FS_Servant</li>
+			<li>FS_ServantArcher</li>
+		</traits>
+		
+		<skillGains />
+		
+		<hediffSets>
+		</hediffSets>
+		
+		<servantHediffDef>FS_ServantTrackerArcher</servantHediffDef>
+		<masterHediffDef>FS_CommandSeal</masterHediffDef>
+		
+		<baseXenotype>Baseliner</baseXenotype>
+	</ServantSummon.PawnPresetDef>
+
+</Defs>

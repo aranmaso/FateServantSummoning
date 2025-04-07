@@ -1,0 +1,93 @@
+<Defs>
+
+	<HediffDef Name="ServantTrackerBase" Abstract="True">
+		<label>standard servant tracker</label>
+		<description>WIP</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+	</HediffDef>
+	
+	<HediffDef ParentName="ServantTrackerBase">
+		<defName>FS_ServantTracker</defName>
+		<label>servant seal</label>
+		<description>WIP</description>
+		<comps>
+			<li Class="ServantSummon.HediffCompProperties_ServantTracker">
+				<canBeSummonAgainAfterDeath>true</canBeSummonAgainAfterDeath>
+				<commandSealHediffDef>FS_CommandSeal</commandSealHediffDef>
+				<uiIcon>UI/Icon/hea</uiIcon>
+			</li>
+			<li Class="ServantSummon.HediffCompProperties_MagicalEnergy">
+				<MaxMana>250</MaxMana>
+				<regenPerDay>0.1</regenPerDay>
+				<labelOverride>Mana</labelOverride>
+				<tooltipOverride>Mana needed to maintain servant physical form</tooltipOverride>
+				<BarColor>(0,0,100)</BarColor>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<FS_ManaPerDay>1</FS_ManaPerDay>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="ServantTrackerBase">
+		<defName>FS_ServantTrackerArcher</defName>
+		<label>servant seal(Archer)</label>
+		<description>WIP</description>
+		<comps>
+			<li Class="ServantSummon.HediffCompProperties_ServantTracker">
+				<canBeSummonAgainAfterDeath>true</canBeSummonAgainAfterDeath>
+				<timeAfterMasterDied>180000</timeAfterMasterDied>
+				<commandSealHediffDef>FS_ServantTrackerArcher</commandSealHediffDef>
+				<uiIcon>UI/Icon/hea</uiIcon>
+			</li>
+			<li Class="ServantSummon.HediffCompProperties_MagicalEnergy">
+				<MaxMana>1000</MaxMana>
+				<regenPerDay>0.1</regenPerDay>
+				<labelOverride>Mana</labelOverride>
+				<tooltipOverride>Mana needed to maintain servant physical form</tooltipOverride>
+				<BarColor>(0,0,100)</BarColor>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<FS_ManaPerDay>1</FS_ManaPerDay>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="ServantTrackerBase">
+		<defName>FS_ServantTrackerAssassins</defName>
+		<label>servant seal(Assassins)</label>
+		<description>WIP</description>
+		<comps>
+			<li Class="ServantSummon.HediffCompProperties_ServantTracker">
+				<canBeSummonAgainAfterDeath>true</canBeSummonAgainAfterDeath>
+				<commandSealHediffDef>FS_CommandSeal</commandSealHediffDef>
+				<dematerializeHediff>FS_DeMaterializeAssassins</dematerializeHediff>
+				<uiIcon>UI/Icon/hea</uiIcon>
+			</li>
+			<li Class="ServantSummon.HediffCompProperties_MagicalEnergy">
+				<MaxMana>250</MaxMana>
+				<regenPerDay>0.1</regenPerDay>
+				<labelOverride>Mana</labelOverride>
+				<tooltipOverride>Mana needed to maintain servant physical form</tooltipOverride>
+				<BarColor>(0,0,100)</BarColor>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<FS_ManaPerDay>1</FS_ManaPerDay>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>

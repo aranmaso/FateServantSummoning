@@ -1,0 +1,64 @@
+<Defs>
+
+	<StatDef>
+		<defName>FS_ManaPerDay</defName>
+		<label>Mana used per day</label>
+		<description>The maximum mana normally availible to a pawn.</description>
+		<category>BasicsPawn</category>		
+		<defaultBaseValue>0</defaultBaseValue>
+		<minValue>0</minValue>
+		<toStringStyle>FloatTwo</toStringStyle>
+		<formatString>{0} mana/d</formatString>
+		<showOnAnimals>false</showOnAnimals>
+		<hideAtValue>0</hideAtValue>
+		<displayPriorityInCategory>3600</displayPriorityInCategory>
+		<scenarioRandomizable>true</scenarioRandomizable>
+		<cacheable>true</cacheable>		
+	</StatDef>
+
+	<StatDef>
+		<defName>FS_MagicDamageMultiplier</defName>
+		<label>magic damage factor</label>
+		<description>magic damage factor</description>
+		<category>BasicsPawn</category>
+		<defaultBaseValue>1</defaultBaseValue>
+		<toStringStyle>PercentZero</toStringStyle>
+		<showOnAnimals>false</showOnAnimals>
+		<hideAtValue>1</hideAtValue>
+		<minValue>0</minValue>
+		<displayPriorityInCategory>3600</displayPriorityInCategory>
+		<scenarioRandomizable>true</scenarioRandomizable>
+		<cacheable>true</cacheable>
+	</StatDef>
+
+	<StatDef>
+		<defName>FS_MagicResistanceMultiplier</defName>
+		<label>incoming magic damage factor</label>
+		<description>magic resistance factor</description>
+		<category>BasicsPawn</category>
+		<defaultBaseValue>1</defaultBaseValue>
+		<toStringStyle>PercentZero</toStringStyle>
+		<showOnAnimals>false</showOnAnimals>
+		<hideAtValue>1</hideAtValue>
+		<minValue>0</minValue>
+		<displayPriorityInCategory>3600</displayPriorityInCategory>
+		<scenarioRandomizable>true</scenarioRandomizable>
+		<cacheable>true</cacheable>
+	</StatDef>
+
+	<StatDef>
+		<defName>FS_HealthFactor</defName>
+		<label>health factor</label>
+		<description>magic damage factor</description>
+		<category>BasicsPawn</category>
+		<defaultBaseValue>1</defaultBaseValue>
+		<toStringStyle>PercentZero</toStringStyle>
+		<showOnAnimals>false</showOnAnimals>
+		<hideAtValue>1</hideAtValue>
+		<minValue>0.01</minValue>
+		<displayPriorityInCategory>3600</displayPriorityInCategory>
+		<scenarioRandomizable>true</scenarioRandomizable>
+		<cacheable>true</cacheable>
+	</StatDef>
+
+</Defs>

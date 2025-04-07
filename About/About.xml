@@ -1,0 +1,12 @@
+<ModMetaData>
+
+	<name>Fate Servant Summoning</name>
+	<author>FarmerJoe</author>
+	<!-- <url></url> -->
+    <supportedVersions> 
+		<li>1.5</li>
+    </supportedVersions>
+   <packageId>Fate.ServantSummon</packageId>
+	<description>. . .</description>
+	
+</ModMetaData>

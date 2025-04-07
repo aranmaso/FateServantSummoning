@@ -1,0 +1,312 @@
+<Defs>
+	
+	<!-- Ref -->
+	<!-- [PAWN_nameDef] -->
+	<!-- [PAWN_possessive] -->
+	
+	<!-- Artoria(Basic) -->
+	<BackstoryDef>
+		<defName>FS_ArtoriaChild</defName>
+		<slot>Childhood</slot>
+		<title>Red Dragon blood</title>
+		<titleShort>Red Dragon Descendent</titleShort>
+		<description>[PAWN_nameDef] was a descendent of red dragon, [PAWN_possessive] has better proficiency in melee</description>
+		<spawnCategories>
+			<li>FSS_Artoria</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<possessions>
+			<!-- <FSS_Excaliber>1</FSS_Excaliber> -->
+		</possessions>
+		<skillGains>
+			<Melee>4</Melee>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>FS_ArtoriaAdult</defName>
+		<slot>Adulthood</slot>
+		<title>Regent</title>
+		<titleShort>Regent</titleShort>
+		<description>[PAWN_nameDef] is a regent</description>
+		<spawnCategories>
+			<li>FSS_Artoria</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<possessions />
+		<skillGains>
+			<!-- <Melee>4</Melee> -->
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+	</BackstoryDef>
+	
+	<!-- Emiya(Basic) -->
+	<BackstoryDef>
+		<defName>FS_EmiyaChild</defName>
+		<slot>Childhood</slot>
+		<title>Young Magus</title>
+		<titleShort>Young Magus</titleShort>
+		<description>[PAWN_nameDef] was a magus at a young age, [PAWN_possessive] has better proficiency in melee</description>
+		<spawnCategories>
+			<li>FSS_Emiya</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<possessions>
+			<FS_Kanshou>1</FS_Kanshou>
+		</possessions>
+		<skillGains>
+			<Melee>3</Melee>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>FS_EmiyaAdult</defName>
+		<slot>Adulthood</slot>
+		<title>Counter Guardian Archer</title>
+		<titleShort>Counter Guardian</titleShort>
+		<description>[PAWN_nameDef] is a Counter Guardian choosen by Alaya</description>
+		<spawnCategories>
+			<li>FSS_Emiya</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Shooting>9</Shooting>
+			<Social>-4</Social>
+		</skillGains>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<SpeedOffset>2</SpeedOffset>
+		</forcedTraits>
+		<possessions>
+			<Gun_SniperRifle>1</Gun_SniperRifle>
+		</possessions>
+	</BackstoryDef>		
+
+	<!-- Gilgamesh -->
+	<BackstoryDef>
+		<defName>FS_GilgameshChild</defName>
+		<slot>Childhood</slot>
+		<title>Demi-god</title>
+		<titleShort>Young Magus</titleShort>
+		<description>[PAWN_nameDef] was a magus at a young age, [PAWN_possessive] has better proficiency in melee</description>
+		<spawnCategories>
+			<li>FSS_Gilgamesh</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<possessions>
+			<!-- <FSS_Excaliber>1</FSS_Excaliber> -->
+		</possessions>
+		<skillGains>
+			<Shooting>3</Shooting>
+			<Melee>3</Melee>
+			<Social>4</Social>
+		</skillGains>
+		<forcedTraits>
+			<FS_GilDemigod />
+		</forcedTraits>
+	</BackstoryDef>
+	
+	<!-- Medea -->
+	<BackstoryDef>
+		<defName>FS_MedeaChild</defName>
+		<slot>Childhood</slot>
+		<title>Princess</title>
+		<titleShort>Princess</titleShort>
+		<description>[PAWN_nameDef] was born of royal bloodline, [PAWN_possessive] is a princess</description>
+		<spawnCategories>
+			<li>FSS_Medea</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<possessions>
+			<!-- <FSS_Excaliber>1</FSS_Excaliber> -->
+		</possessions>
+		<skillGains>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>FS_MedeaAdult</defName>
+		<slot>Adulthood</slot>
+		<title>True Witch</title>
+		<titleShort>Witch</titleShort>
+		<description>[PAWN_nameDef] is a True Witch, [PAWN_possessive] do more magic damage</description>
+		<spawnCategories>
+			<li>FSS_Medea</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<possessions>
+			<!-- <FSS_Excaliber>1</FSS_Excaliber> -->
+		</possessions>
+		<skillGains>
+			<!-- <Intellectual>5</Intellectual> -->
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+	</BackstoryDef>
+	
+	<!-- Medusa -->
+	<BackstoryDef>
+		<defName>FS_MedusaChild</defName>
+		<slot>Childhood</slot>
+		<title>Princess</title>
+		<titleShort>Princess</titleShort>
+		<description>[PAWN_nameDef] was born of royal bloodline, [PAWN_possessive] is a princess</description>
+		<spawnCategories>
+			<li>FSS_Medea</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<possessions>
+		</possessions>
+		<skillGains>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>FS_MedusaAdult</defName>
+		<slot>Adulthood</slot>
+		<title>Cursed by Posidon</title>
+		<titleShort>Witch</titleShort>
+		<description>[PAWN_nameDef] was cursed by Posidon, [PAWN_possessive] do more magic damage</description>
+		<spawnCategories>
+			<li>FSS_Medea</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<possessions>
+		</possessions>
+		<skillGains>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+	</BackstoryDef>
+	
+	<!-- Herecles -->
+	<BackstoryDef>
+		<defName>FS_BerserkerChild</defName>
+		<slot>Childhood</slot>
+		<title>Half Demi-God</title>
+		<titleShort>half demigod</titleShort>
+		<description>[PAWN_nameDef] was born as a half demi-god</description>
+		<spawnCategories>
+			<li>FSS_Heracles</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<possessions>
+			<!-- <FSS_Excaliber>1</FSS_Excaliber> -->
+		</possessions>
+		<skillGains>
+			<Melee>7</Melee>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>FS_BerserkerAdult</defName>
+		<slot>Adulthood</slot>
+		<title>Twelve labors</title>
+		<titleShort>twelve labors</titleShort>
+		<description>[PAWN_nameDef] has accomplish the twelve labors</description>
+		<spawnCategories>
+			<li>FSS_Heracles</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<possessions>
+			<!-- <FSS_Excaliber>1</FSS_Excaliber> -->
+		</possessions>
+		<skillGains>
+			<!-- <Intellectual>5</Intellectual> -->
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+	</BackstoryDef>
+	
+	<!-- Cu -->
+	<BackstoryDef>
+		<defName>FS_CuChulainnChild</defName>
+		<slot>Childhood</slot>
+		<title>Child of Light</title>
+		<titleShort>Child of Light</titleShort>
+		<description>[PAWN_nameDef] 50% faster attack, take less damage from ranged</description>
+		<spawnCategories>
+			<li>FSS_CuChulainn</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<possessions>
+			<!-- <FSS_Excaliber>1</FSS_Excaliber> -->
+		</possessions>
+		<skillGains>
+			<!-- <Melee>7</Melee> -->
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<defName>FS_CuChulainnAdult</defName>
+		<slot>Adulthood</slot>
+		<title>Culann's savage dog</title>
+		<titleShort>savage dog</titleShort>
+		<description>[PAWN_nameDef] is Culann's savage dog</description>
+		<spawnCategories>
+			<li>FSS_CuChulainn</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<possessions>
+			<!-- <FSS_Excaliber>1</FSS_Excaliber> -->
+		</possessions>
+		<skillGains>
+			<Shooting>5</Shooting>
+			<Melee>5</Melee>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+	</BackstoryDef>
+	
+	<!-- Hassan -->
+	
+	<BackstoryDef>
+		<defName>FS_HassanAdult</defName>
+		<slot>Adulthood</slot>
+		<title>Hassan-i-Sabah</title>
+		<titleShort>Hassan-i-Sabah</titleShort>
+		<description>[PAWN_nameDef] Hassan-i-Sabah</description>
+		<spawnCategories>
+			<li>FSS_Hassan</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<possessions>
+			<!-- <FSS_Excaliber>1</FSS_Excaliber> -->
+		</possessions>
+		<skillGains>
+			<Melee>5</Melee>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+	</BackstoryDef>
+
+</Defs>
