@@ -115,6 +115,20 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="FateServantClothesBase">
+		<defName>FS_ArtoriaLionArmor</defName>
+		<label>Lion King's Armor</label>
+		<description>WIP</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="FateServantClothesBase">
 		<defName>FS_ArtoriaAlterDress</defName>
 		<label>Salter's dress</label>
 		<description>WIP</description>
@@ -232,6 +246,65 @@
 	<ThingDef ParentName="FateServantClothesBase">
 		<defName>FS_HassanRobe</defName>
 		<label>Hassan's Clothing</label>
+		<description>WIP</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="FateServantClothesBase">
+		<defName>FS_OkitaCoatOfOaths</defName>
+		<label>Cloth of Oaths</label>
+		<description>WIP</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</wornGraphicPath>
+			<layers Inherit="false">
+				<li>Middle</li>
+			</layers>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="FateServantClothesBase">
+		<defName>FS_OkitaHakama</defName>
+		<label>Souji's Hakama</label>
+		<description>WIP</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="FateServantClothesBase">
+		<defName>FS_SaintArmor</defName>
+		<label>Saint Armor</label>
+		<description>WIP</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="FateServantClothesBase">
+		<defName>FS_CorruptedSaintArmor</defName>
+		<label>Corrupted Armor</label>
 		<description>WIP</description>
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</texPath>

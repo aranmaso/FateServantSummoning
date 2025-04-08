@@ -1,27 +1,27 @@
 <Defs>
 	
 	<ServantSummon.PawnPresetDef ParentName="PresetBase">
-		<defName>FS_Medea</defName>
-		<label>Caster</label>
+		<defName>FS_ArtoriaPendragonLancer</defName>
+		<label>Lancer</label>
 		<description>WIP</description>
 		
-		<firstName>Medea</firstName>
-		<nickname>Caster</nickname>
-		<lastname></lastname>
-		<title>Caster</title>
+		<firstName>Artoria</firstName>
+		<nickname>Lancer</nickname>
+		<lastname>Pendragon</lastname>
+		<title>King Arthur</title>
 		
 		<bodyTypeDef>Female</bodyTypeDef>
 		<headTypeDef>Female_AverageNormal</headTypeDef>
 		
-		<weaponDef>FS_RuleBreaker</weaponDef>
+		<weaponDef>FS_Rhongobongo</weaponDef>
 		<forcedApparelDefs>
-			<li>FS_MedeaRobe</li>
+			<li>FS_ArtoriaLionArmor</li>
 			<li>Apparel_Pants</li>
 		</forcedApparelDefs>
 		
 		<basePawnKindDef>Colonist</basePawnKindDef>
 		
-		<hairColor>(255,0,255)</hairColor>
+		<hairColor>(255,244,92)</hairColor>
 		<skinColor>(236,203,184)</skinColor>
 		<eyeColor>(0,0,255)</eyeColor>
 		
@@ -34,24 +34,23 @@
 		<gender>Female</gender>
 		
 		<childBackStories>
-			<li>FS_MedeaChild</li>
+			<li>FS_ArtoriaChild</li>
 		</childBackStories>
 		
 		<adultBackStories>
-			<li>FS_MedeaAdult</li>
+			<li>FS_ArtoriaAdult</li>
 		</adultBackStories>
 		
 		<traits>
 			<li>FS_Servant</li>
-			<li>FS_ServantCaster</li>
+			<li>FS_ServantLancer</li>
+			<li>FS_TorrentOfLight</li>
+			<li>FS_MagicCore</li>
+			<li>FS_Instinct</li>
+			<li>FS_Charismatic</li>
 		</traits>
 		
-		<hediffSets>
-			<li>
-				<hediffDef>FS_HighSpeedDivineWord</hediffDef>
-				<bodyPartDef />
-			</li>
-		</hediffSets>
+		<hediffSets />
 		
 		<servantHediffDef>FS_ServantTracker</servantHediffDef>
 		<masterHediffDef>FS_CommandSeal</masterHediffDef>

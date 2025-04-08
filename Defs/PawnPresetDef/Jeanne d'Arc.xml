@@ -1,27 +1,27 @@
 <Defs>
 	
 	<ServantSummon.PawnPresetDef ParentName="PresetBase">
-		<defName>FS_Medea</defName>
-		<label>Caster</label>
+		<defName>FS_JeanneDArc</defName>
+		<label>Ruler</label>
 		<description>WIP</description>
 		
-		<firstName>Medea</firstName>
-		<nickname>Caster</nickname>
-		<lastname></lastname>
-		<title>Caster</title>
+		<firstName>Jeanne</firstName>
+		<nickname>Ruler</nickname>
+		<lastname>d'Arc</lastname>
+		<title>Saint of France</title>
 		
 		<bodyTypeDef>Female</bodyTypeDef>
 		<headTypeDef>Female_AverageNormal</headTypeDef>
 		
-		<weaponDef>FS_RuleBreaker</weaponDef>
+		<weaponDef>FS_LaPucelle</weaponDef>
 		<forcedApparelDefs>
-			<li>FS_MedeaRobe</li>
+			<li>FS_SaintArmor</li>
 			<li>Apparel_Pants</li>
 		</forcedApparelDefs>
 		
 		<basePawnKindDef>Colonist</basePawnKindDef>
 		
-		<hairColor>(255,0,255)</hairColor>
+		<hairColor>(255,244,92)</hairColor>
 		<skinColor>(236,203,184)</skinColor>
 		<eyeColor>(0,0,255)</eyeColor>
 		
@@ -34,24 +34,23 @@
 		<gender>Female</gender>
 		
 		<childBackStories>
-			<li>FS_MedeaChild</li>
+			<li>FS_JeanneChild</li>
 		</childBackStories>
 		
 		<adultBackStories>
-			<li>FS_MedeaAdult</li>
+			<li>FS_JeanneAdult</li>
 		</adultBackStories>
 		
 		<traits>
 			<li>FS_Servant</li>
-			<li>FS_ServantCaster</li>
+			<li>FS_ServantRuler</li>
+			<li>FS_GodResolution</li>
+			<li>FS_Revelation</li>
+			<li>FS_Charismatic</li>
+			<li>FS_Saint</li>
 		</traits>
 		
-		<hediffSets>
-			<li>
-				<hediffDef>FS_HighSpeedDivineWord</hediffDef>
-				<bodyPartDef />
-			</li>
-		</hediffSets>
+		<hediffSets />
 		
 		<servantHediffDef>FS_ServantTracker</servantHediffDef>
 		<masterHediffDef>FS_CommandSeal</masterHediffDef>

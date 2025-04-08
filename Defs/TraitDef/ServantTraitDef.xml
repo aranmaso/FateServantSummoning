@@ -137,6 +137,42 @@
 	</TraitDef>
 
 	<TraitDef>
+		<defName>FS_ServantRuler</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>Ruler Class</label>
+				<description>{PAWN_nameDef} is a servant of Ruler class</description>
+				<skillGains>
+					<Melee>5</Melee>
+				</skillGains>
+				<statOffsets>
+				</statOffsets>
+				<statFactors>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>FS_ServantAvenger</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>Avenger Class</label>
+				<description>{PAWN_nameDef} is a servant of Ruler class</description>
+				<skillGains>
+					<Melee>5</Melee>
+				</skillGains>
+				<statOffsets>
+				</statOffsets>
+				<statFactors>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
 		<defName>FS_ServantCorrupted</defName>
 		<commonality>0</commonality>
 		<degreeDatas>
@@ -277,6 +313,23 @@
 	</TraitDef>
 
 	<TraitDef>
+		<defName>FS_ReducedEarth</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>Reduced Earth</label>
+				<description>{PAWN_nameDef} reduced earth</description>
+				<skillGains>
+				</skillGains>
+				<statOffsets>
+				</statOffsets>
+				<statFactors>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
 		<defName>FS_WeakConstitution</defName>
 		<commonality>0</commonality>
 		<degreeDatas>
@@ -284,9 +337,145 @@
 				<label>Weak Constitution</label>
 				<description>{PAWN_nameDef} has a weak constitution</description>
 				<skillGains>
-					<Social>-4</Social>
 				</skillGains>
-				<statOffsets>				
+				<statOffsets>		
+					<FS_HealthFactor>-0.1</FS_HealthFactor>
+				</statOffsets>
+				<statFactors>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>FS_TorrentOfLight</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>Torrent of Light</label>
+				<description>{PAWN_nameDef} torrent of light</description>
+				<skillGains>
+				</skillGains>
+				<statOffsets>
+				</statOffsets>
+				<statFactors>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>FS_MagicCore</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>Magic Core</label>
+				<description>{PAWN_nameDef} Magic Core</description>
+				<skillGains>
+				</skillGains>
+				<statOffsets>
+				</statOffsets>
+				<statFactors>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>FS_Instinct</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>Intinct</label>
+				<description>{PAWN_nameDef} Instinct</description>
+				<skillGains>
+				</skillGains>
+				<statOffsets>
+				</statOffsets>
+				<statFactors>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>FS_GodResolution</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>God's Resolution</label>
+				<description>{PAWN_nameDef} God Resolution</description>
+				<skillGains>
+				</skillGains>
+				<statOffsets>
+				</statOffsets>
+				<statFactors>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>FS_Revelation</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>Revelation</label>
+				<description>{PAWN_nameDef} Revelation</description>
+				<skillGains>
+				</skillGains>
+				<statOffsets>
+				</statOffsets>
+				<statFactors>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>FS_Saint</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>Saint</label>
+				<description>{PAWN_nameDef} Saint</description>
+				<skillGains>
+				</skillGains>
+				<statOffsets>
+				</statOffsets>
+				<statFactors>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>FS_Blackened</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>Blackened</label>
+				<description>{PAWN_nameDef} Blackened</description>
+				<skillGains>
+				</skillGains>
+				<statOffsets>
+				</statOffsets>
+				<statFactors>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>FS_DragonWitch</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>Dragon Witch</label>
+				<description>{PAWN_nameDef} Dragon Witch</description>
+				<skillGains>
+				</skillGains>
+				<statOffsets>
 				</statOffsets>
 				<statFactors>
 				</statFactors>

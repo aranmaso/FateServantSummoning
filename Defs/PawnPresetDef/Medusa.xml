@@ -49,7 +49,7 @@
 		<hediffSets>
 		</hediffSets>
 		
-		<servantHediffDef>FS_ServantTracker</servantHediffDef>
+		<servantHediffDef>FS_ServantTrackerArcher</servantHediffDef>
 		<masterHediffDef>FS_CommandSeal</masterHediffDef>
 		
 		<baseXenotype>Baseliner</baseXenotype>

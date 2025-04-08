@@ -97,7 +97,7 @@
 	<BackstoryDef>
 		<defName>FS_GilgameshChild</defName>
 		<slot>Childhood</slot>
-		<title>Demi-god</title>
+		<title>⅔ Demi-god</title>
 		<titleShort>Young Magus</titleShort>
 		<description>[PAWN_nameDef] was a magus at a young age, [PAWN_possessive] has better proficiency in melee</description>
 		<spawnCategories>
@@ -301,6 +301,90 @@
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<possessions>
 			<!-- <FSS_Excaliber>1</FSS_Excaliber> -->
+		</possessions>
+		<skillGains>
+			<Melee>5</Melee>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+	</BackstoryDef>
+	
+	<!-- Okita -->
+	<BackstoryDef>
+		<defName>FS_OkitaChild</defName>
+		<slot>Childhood</slot>
+		<title>Apprentice Swordsman</title>
+		<titleShort>Apprentice Swordsman</titleShort>
+		<description>[PAWN_nameDef] is a apprentice Swordsman</description>
+		<spawnCategories>
+			<li>FSS_Okita</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<possessions>
+			<!-- <FSS_Excaliber>1</FSS_Excaliber> -->
+		</possessions>
+		<skillGains>
+			<Melee>5</Melee>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+	</BackstoryDef>
+	<BackstoryDef>
+		<defName>FS_OkitaAdult</defName>
+		<slot>Adulthood</slot>
+		<title>Captain</title>
+		<titleShort>Captain</titleShort>
+		<description>[PAWN_nameDef] is a Captain</description>
+		<spawnCategories>
+			<li>FSS_Okita</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<possessions>
+			<!-- <FSS_Excaliber>1</FSS_Excaliber> -->
+		</possessions>
+		<skillGains>
+			<Melee>5</Melee>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+	</BackstoryDef>
+	
+	<!-- Jeanne -->
+	<BackstoryDef>
+		<defName>FS_JeanneChild</defName>
+		<slot>Childhood</slot>
+		<title>Soldier</title>
+		<titleShort>Soldier</titleShort>
+		<description>[PAWN_nameDef] is a soldier in [PAWN_possessive] childhood</description>
+		<spawnCategories>
+			<li>FSS_Jeanne</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<possessions>
+			<!-- <FSS_Excaliber>1</FSS_Excaliber> -->
+		</possessions>
+		<skillGains>
+			<Melee>5</Melee>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+	</BackstoryDef>
+	<BackstoryDef>
+		<defName>FS_JeanneAdult</defName>
+		<slot>Adulthood</slot>
+		<title>Saint</title>
+		<titleShort>Saint</titleShort>
+		<description>[PAWN_nameDef] is a Saint</description>
+		<spawnCategories>
+			<li>FSS_Jeanne</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<possessions>
+			<FS_HolyBanner>1</FS_HolyBanner>
 		</possessions>
 		<skillGains>
 			<Melee>5</Melee>

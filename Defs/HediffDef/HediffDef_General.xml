@@ -78,7 +78,7 @@
 	</HediffDef>
 	
 	<HediffDef ParentName="ServantInnateHediffBase">
-		<defName>FS_HighSpeedDiviveWord</defName>
+		<defName>FS_HighSpeedDivineWord</defName>
 		<label>High-Speed divive word</label>
 		<description>cast magic faster</description>
 		<comps>
@@ -227,5 +227,47 @@
 		<stages>
 		</stages>
 	</HediffDef>
+	
+	<HediffDef ParentName="ServantInnateHediffBase">
+		<defName>FS_MindEye</defName>
+		<label>Mind's Eye</label>
+		<description>Mind Eye</description>
+		<comps>
+		</comps>
+		<stages>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="ServantInnateHediffBase">
+		<defName>FS_Weakened</defName>
+		<label>Weakened</label>
+		<description>WIP</description>
+		<comps>
+		</comps>
+		<stages>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="ServantInnateHediffBase">
+		<defName>FS_HatredAbsorption</defName>
+		<label>Hatred Absorption</label>
+		<description>WIP</description>
+		<comps>
+		</comps>
+		<stages>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="ServantInnateHediffBase">
+		<defName>FS_SelfReplenishment</defName>
+		<label>Self-Replenishment</label>
+		<description>WIP</description>
+		<comps>
+		</comps>
+		<stages>
+		</stages>
+	</HediffDef>
+	
+	
 
 </Defs>

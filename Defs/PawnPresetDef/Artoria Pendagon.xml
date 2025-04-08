@@ -13,7 +13,7 @@
 		<bodyTypeDef>Female</bodyTypeDef>
 		<headTypeDef>Female_AverageNormal</headTypeDef>
 		
-		<weaponDef>FS_Excaliber</weaponDef>
+		<weaponDef>FS_InvisibleAir</weaponDef>
 		<forcedApparelDefs>
 			<li>FS_ArtoriaDress</li>
 			<li>Apparel_Pants</li>
@@ -44,6 +44,9 @@
 		<traits>
 			<li>FS_Servant</li>
 			<li>FS_ServantSaber</li>
+			<li>FS_MagicCore</li>
+			<li>FS_Charismatic</li>
+			<li>FS_Instinct</li>
 		</traits>
 		
 		<hediffSets />

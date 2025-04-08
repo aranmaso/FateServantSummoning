@@ -47,6 +47,10 @@
 			<li>FS_ServantSaber</li>
 			<li>FS_ServantCorrupted</li>
 			<li>FS_ServantHeightenedSense</li>
+			<li>FS_Blackened</li>
+			<li>FS_MagicCore</li>
+			<li>FS_Charismatic</li>
+			<li>FS_Instinct</li>
 		</traits>
 		
 		<hediffSets>

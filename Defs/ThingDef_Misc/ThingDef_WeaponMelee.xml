@@ -1,6 +1,61 @@
 <Defs>
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>FS_InvisibleAir</defName>
+		<label>invisible sword</label>
+		<description>invisible sword of promised victory.</description>
+		<possessionCount>1</possessionCount>
+		<graphicData>
+			<texPath>Weapons/Excalibur-Saber</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		<uiIconScale>1.0</uiIconScale>
+		<techLevel>Medieval</techLevel>
+		<costStuffCount>50</costStuffCount>
+		<thingSetMakerTags />
+		<weaponTags>
+		</weaponTags>
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<MarketValue>2500</MarketValue>
+			<Mass>2.85</Mass>
+		</statBases>
+		<relicChance>0</relicChance>
+		<equippedAngleOffset>-45</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>25</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>30</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>FS_Excaliber</defName>
 		<label>excaliber</label>
 		<description>sword of promised victory.</description>
@@ -452,6 +507,234 @@
 		</comps>
 		<graphicData>
 			<texPath>Weapons/GaéBolg</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		<uiIconScale>1.0</uiIconScale>
+		<techLevel>Medieval</techLevel>
+		<costStuffCount>50</costStuffCount>
+		<thingSetMakerTags />
+		<weaponTags>
+		</weaponTags>
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<MarketValue>2500</MarketValue>
+			<Mass>2.85</Mass>
+		</statBases>
+		<relicChance>0</relicChance>
+		<equippedAngleOffset>-45</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>25</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>30</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>FS_Norimune</defName>
+		<label>Norimune</label>
+		<description>sword.</description>
+		<possessionCount>1</possessionCount>
+		<comps>
+		</comps>
+		<graphicData>
+			<texPath>Weapons/Excalibur-Saber</texPath>			
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		<uiIconScale>1.0</uiIconScale>
+		<techLevel>Medieval</techLevel>
+		<costStuffCount>50</costStuffCount>
+		<thingSetMakerTags />
+		<weaponTags>
+		</weaponTags>
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<MarketValue>2500</MarketValue>
+			<Mass>2.85</Mass>
+		</statBases>
+		<relicChance>0</relicChance>
+		<equippedAngleOffset>-45</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>25</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>30</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>FS_Rhongobongo</defName>
+		<label>Rhongomyniad</label>
+		<description>lance.</description>
+		<possessionCount>1</possessionCount>
+		<comps>
+		</comps>
+		<graphicData>
+			<texPath>Weapons/Excalibur-Saber</texPath>			
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		<uiIconScale>1.0</uiIconScale>
+		<techLevel>Medieval</techLevel>
+		<costStuffCount>50</costStuffCount>
+		<thingSetMakerTags />
+		<weaponTags>
+		</weaponTags>
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<MarketValue>2500</MarketValue>
+			<Mass>2.85</Mass>
+		</statBases>
+		<relicChance>0</relicChance>
+		<equippedAngleOffset>-45</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>25</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>30</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>FS_LaPucelle</defName>
+		<label>La Pucelle</label>
+		<description>sword.</description>
+		<possessionCount>1</possessionCount>
+		<comps>
+		</comps>
+		<graphicData>
+			<texPath>Weapons/Excalibur-Saber</texPath>			
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		<uiIconScale>1.0</uiIconScale>
+		<techLevel>Medieval</techLevel>
+		<costStuffCount>50</costStuffCount>
+		<thingSetMakerTags />
+		<weaponTags>
+		</weaponTags>
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<MarketValue>2500</MarketValue>
+			<Mass>2.85</Mass>
+		</statBases>
+		<relicChance>0</relicChance>
+		<equippedAngleOffset>-45</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>25</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>30</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>FS_HolyBanner</defName>
+		<label>Holy Banner</label>
+		<description>sword.</description>
+		<possessionCount>1</possessionCount>
+		<comps>
+		</comps>
+		<graphicData>
+			<texPath>Weapons/Excalibur-Saber</texPath>			
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.5</drawSize>

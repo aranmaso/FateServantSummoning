@@ -9,7 +9,7 @@
 	
 	<HediffDef ParentName="ServantTrackerBase">
 		<defName>FS_ServantTracker</defName>
-		<label>servant seal</label>
+		<label>Linked to </label>
 		<description>WIP</description>
 		<comps>
 			<li Class="ServantSummon.HediffCompProperties_ServantTracker">
@@ -36,7 +36,7 @@
 	
 	<HediffDef ParentName="ServantTrackerBase">
 		<defName>FS_ServantTrackerArcher</defName>
-		<label>servant seal(Archer)</label>
+		<label>Linked to </label>
 		<description>WIP</description>
 		<comps>
 			<li Class="ServantSummon.HediffCompProperties_ServantTracker">
@@ -64,7 +64,7 @@
 	
 	<HediffDef ParentName="ServantTrackerBase">
 		<defName>FS_ServantTrackerAssassins</defName>
-		<label>servant seal(Assassins)</label>
+		<label>Linked to </label>
 		<description>WIP</description>
 		<comps>
 			<li Class="ServantSummon.HediffCompProperties_ServantTracker">

@@ -13,9 +13,10 @@
 		<bodyTypeDef>Female</bodyTypeDef>
 		<headTypeDef>Female_AverageNormal</headTypeDef>
 		
-		<weaponDef>FS_Excaliber</weaponDef>
+		<weaponDef>FS_Norimune</weaponDef>
 		<forcedApparelDefs>
-			<li>FS_ArtoriaDress</li>
+			<li>FS_OkitaCoatOfOaths</li>
+			<li>FS_OkitaHakama</li>
 			<li>Apparel_Pants</li>
 		</forcedApparelDefs>
 		
@@ -34,19 +35,30 @@
 		<gender>Female</gender>
 		
 		<childBackStories>
-			<li>FS_ArtoriaChild</li>
+			<li>FS_OkitaChild</li>
 		</childBackStories>
 		
 		<adultBackStories>
-			<li>FS_ArtoriaAdult</li>
+			<li>FS_OkitaAdult</li>
 		</adultBackStories>
 		
 		<traits>
 			<li>FS_Servant</li>
 			<li>FS_ServantSaber</li>
+			<li>FS_ReducedEarth</li>
+			<li>FS_WeakConstitution</li>
 		</traits>
 		
-		<hediffSets />
+		<hediffSets>
+			<li>
+				<hediffDef>FS_MindEye</hediffDef>
+				<bodyPartDef />
+			</li>
+			<li>
+				<hediffDef>FS_Weakened</hediffDef>
+				<bodyPartDef />
+			</li>
+		</hediffSets>
 		
 		<servantHediffDef>FS_ServantTracker</servantHediffDef>
 		<masterHediffDef>FS_CommandSeal</masterHediffDef>
