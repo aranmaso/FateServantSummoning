@@ -51,6 +51,10 @@
 				<hediffDef>FS_HighSpeedDivineWord</hediffDef>
 				<bodyPartDef />
 			</li>
+			<li>
+				<hediffDef>FS_TerritoryCreation</hediffDef>
+				<bodyPartDef />
+			</li>
 		</hediffSets>
 		
 		<servantHediffDef>FS_ServantTracker</servantHediffDef>

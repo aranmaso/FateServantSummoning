@@ -20,6 +20,7 @@
 			<li Class="ServantSummon.HediffCompProperties_MagicalEnergy">
 				<MaxMana>250</MaxMana>
 				<regenPerDay>0.1</regenPerDay>
+				<isUseRegenInterval>true</isUseRegenInterval>
 				<labelOverride>Mana</labelOverride>
 				<tooltipOverride>Mana needed to maintain servant physical form</tooltipOverride>
 				<BarColor>(0,0,100)</BarColor>
@@ -27,9 +28,16 @@
 		</comps>
 		<stages>
 			<li>
+				<minSeverity>0.1</minSeverity>
 				<statOffsets>
 					<FS_ManaPerDay>1</FS_ManaPerDay>
 				</statOffsets>
+				<statFactors>
+					<FS_ManaGainFactor>0</FS_ManaGainFactor>
+				</statFactors>
+			</li>
+			<li>
+				<minSeverity>1</minSeverity>
 			</li>
 		</stages>
 	</HediffDef>
@@ -48,6 +56,7 @@
 			<li Class="ServantSummon.HediffCompProperties_MagicalEnergy">
 				<MaxMana>1000</MaxMana>
 				<regenPerDay>0.1</regenPerDay>
+				<isUseRegenInterval>true</isUseRegenInterval>
 				<labelOverride>Mana</labelOverride>
 				<tooltipOverride>Mana needed to maintain servant physical form</tooltipOverride>
 				<BarColor>(0,0,100)</BarColor>
@@ -55,9 +64,16 @@
 		</comps>
 		<stages>
 			<li>
+				<minSeverity>0.1</minSeverity>
 				<statOffsets>
 					<FS_ManaPerDay>1</FS_ManaPerDay>
 				</statOffsets>
+				<statFactors>
+					<FS_ManaGainFactor>0</FS_ManaGainFactor>
+				</statFactors>
+			</li>
+			<li>
+				<minSeverity>1</minSeverity>
 			</li>
 		</stages>
 	</HediffDef>
@@ -76,6 +92,7 @@
 			<li Class="ServantSummon.HediffCompProperties_MagicalEnergy">
 				<MaxMana>250</MaxMana>
 				<regenPerDay>0.1</regenPerDay>
+				<isUseRegenInterval>true</isUseRegenInterval>
 				<labelOverride>Mana</labelOverride>
 				<tooltipOverride>Mana needed to maintain servant physical form</tooltipOverride>
 				<BarColor>(0,0,100)</BarColor>
@@ -83,9 +100,16 @@
 		</comps>
 		<stages>
 			<li>
+				<minSeverity>0.1</minSeverity>
 				<statOffsets>
 					<FS_ManaPerDay>1</FS_ManaPerDay>
 				</statOffsets>
+				<statFactors>
+					<FS_ManaGainFactor>0</FS_ManaGainFactor>
+				</statFactors>
+			</li>
+			<li>
+				<minSeverity>1</minSeverity>
 			</li>
 		</stages>
 	</HediffDef>

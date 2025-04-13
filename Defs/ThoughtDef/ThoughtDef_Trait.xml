@@ -1,0 +1,23 @@
+<Defs>
+
+	<ThoughtDef>
+		<defName>FS_SaintWitch</defName>
+		<thoughtClass>Thought_SituationalSocial</thoughtClass>
+		<workerClass>ServantSummon.ThoughtWorker_ServantTrait</workerClass>
+		<stages>
+			<li>
+				<label>Saint</label>
+				<labelSocial>near saint</labelSocial>
+				<baseOpinionOffset>15</baseOpinionOffset>
+				<visible>true</visible>
+			</li>
+			<li>
+				<label>Dragon Witch</label>
+				<labelSocial>near dragon witch</labelSocial>
+				<baseOpinionOffset>-20</baseOpinionOffset>
+				<visible>true</visible>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+</Defs>

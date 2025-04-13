@@ -44,11 +44,16 @@
 		<traits>
 			<li>FS_Servant</li>
 			<li>FS_ServantArcher</li>
+			<li>FS_Clairvoyance</li>
 		</traits>
 		
 		<skillGains />
 		
-		<hediffSets>
+		<hediffSets>	
+			<li>
+				<hediffDef>FS_IndependentAction</hediffDef>
+				<bodyPartDef />
+			</li>
 		</hediffSets>
 		
 		<servantHediffDef>FS_ServantTrackerArcher</servantHediffDef>
