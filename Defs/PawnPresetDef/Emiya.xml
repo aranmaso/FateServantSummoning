@@ -54,6 +54,10 @@
 				<hediffDef>FS_IndependentAction</hediffDef>
 				<bodyPartDef />
 			</li>
+			<li>
+				<hediffDef>FS_MindEye</hediffDef>
+				<bodyPartDef />
+			</li>
 		</hediffSets>
 		
 		<servantHediffDef>FS_ServantTrackerArcher</servantHediffDef>

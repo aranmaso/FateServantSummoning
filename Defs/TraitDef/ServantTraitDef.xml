@@ -486,7 +486,7 @@
 				<statOffsets>
 				</statOffsets>
 				<statFactors>
-					<SocialImpact0.8</SocialImpact>					
+					<SocialImpact>0.8</SocialImpact>					
 				</statFactors>
 			</li>
 		</degreeDatas>

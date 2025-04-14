@@ -1,7 +1,7 @@
 <Defs>
 	
 	<ServantSummon.PawnPresetDef ParentName="PresetBase">
-		<defName>FS_JeanneDArc</defName>
+		<defName>FS_JeanneDArcAlter</defName>
 		<label>Avenger</label>
 		<description>WIP</description>
 		

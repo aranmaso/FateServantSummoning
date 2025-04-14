@@ -233,6 +233,14 @@
 		<label>Mind's Eye</label>
 		<description>Mind Eye</description>
 		<comps>
+			<li Class="ServantSummon.HediffCompProperties_BlockDamageInstance">
+				<blockCount>5</blockCount>
+				<chance>0.4</chance>
+				<removeWhenEmpty>false</removeWhenEmpty>
+				<restoreOvertime>false</restoreOvertime>
+				<restoreInterval>2500</restoreInterval>
+				<restoreAmount>1</restoreAmount>
+			</li>
 		</comps>
 		<stages>
 		</stages>
